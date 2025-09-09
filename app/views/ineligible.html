@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block beforeContent %}
+  {{ backLink({
+    href: "/magical-powers",
+    text: "Back"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+
+      <h1>You are not eligible</h1>
+
+      <p>You can only order a test for magical powers if you have symptoms of magical powers.</p>
+
+    </div>
+  </div>
+{% endblock %}
